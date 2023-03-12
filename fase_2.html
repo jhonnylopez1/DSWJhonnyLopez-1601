@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fase_2</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-color: blueviolet;
+        }
+        header {
+            background-color: beige;
+        }
+        a {
+            color: antiquewhite;
+        }
+        ul {
+            display: flex;
+            justify-content:space-between;        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Aprendiendo sobre Flexbox</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#1">Inicio</a></li>
+            <li><a href="#2">Flexbox</a></li>
+            <li><a href="#3">Mockup</a></li>
+            <li><a href="#4">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <section id="1">
+        <h2>Que debo saber sobre Flexbox</h2>
+        <p>
+            Segun Developer Mozilla, El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Cuando se describe a flexbox como unidimensional se destaca el hecho que flexbox maneja el layout en una sola dimensión a la vez,ya sea como fila o como columna.
+        </p>
+        <img src="img/flexbox.png" alt="Imagen de flexbox">
+    </section>
+
+    <hr>
+
+    <section id="2">
+        <h2>Los dos ejes de FlexBox</h2>
+        
+        <h3>El eje principal</h3>
+
+        <p>
+            El eje principal está definido por flex-direction, que posee cuatro posibles valores:
+            row,row-reverse,column,column-reverse.
+            Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la dirección de la línea. <br>
+
+            Al elegir column o column-reverse el eje principal correrá desde el borde superior de la página hasta el final — según la dirección del bloque.
+        </p>
+
+        <h3>El eje cruzado</h3>
+
+        <p>
+            El eje cruzado va perpendicular al eje principal, y por lo tanto si flex-direction (del eje principal) es row o row-reverse el eje cruzado irá por las columnas. <br>
+            Si el eje principal es column o column-reverse entonces el eje cruzado corre a lo largo de las filas.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <section id="3">
+        <h2>Mockup de la pagina</h2>
+        <img src="img/Mockup Final.png" alt="Imagen de Mockup">
+    </section>
+
+    <hr>
+
+    <section id="4">
+        <h2>Acerca de</h2>
+        <p>
+        Nombre:Jhonny Lopez <br>
+        Programa: Ingenieria de Sistemas <br>
+        skype: vlako-117 <br>
+        telefono: 3042138074 <br>
+        email: vlako-117@hotmail.com <br>
+        </p>
+
+    </section>
+
+    <footer>
+        <p>Pagina web elaborada por Jhonny Lopez</p>
+        <p>Fecha de actualizacion: 12/03/2023</p>
+    </footer>
+</body>
+</html>

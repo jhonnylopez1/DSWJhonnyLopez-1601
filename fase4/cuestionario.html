@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="contenedor">
+
+    <header class="header">
+        <h1>Diseño de Sitios Web</h1>
+    </header>
+
+    <!--####################################################################################################################-->
+    <nav class="navbar navbar-expand-lg nav ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-h">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="audio.html">Audio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tema.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tema
+                        </a>
+                        <ul class="dropdown-menu menu-h">
+                            <li><a class="dropdown-item" href="tema.html">Flexbox</a></li>
+                           
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="cuestionario.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Cuestionario
+                        </a>
+                        <ul class="dropdown-menu menu-h">
+                            <li><a class="dropdown-item" href="cuestionario.html">Cuestionario Flexbox</a></li>
+                           
+                        </ul>
+                    </li>
+                    
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+    <!--   ###########################################33333333333333333333-->
+
+
+    <aside class="aside">
+        <ul class="menu-aside">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="audio.html">Audio del tema</a>
+            </li>
+            <li>
+                <a href="tema.html">Tema</a>
+            </li>
+            <li>
+                <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="cuestionario.html">Cuestionario</a>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <div class="main__contenedor">
+            <h1 id="resultado">Responda las siguientes preguntas:</h1>
+            <form name="formulario">
+                <h3>1. Que es Flexbox?</h3>
+    
+                <input type="radio" name="r1" value="a">a. Una tecnologia para crear diseños flexibles en paginas web. <br>
+                <input type="radio" name="r1" value="b">b. Una tecnica para crear animaciones en paginas web. <br>
+                <input type="radio" name="r1" value="c">c. Un lenguaje de programacion para el desarrollo web. <br>
+    
+                <h3>2. Que permite controlar Flexbox en un diseño web?</h3>
+                
+                <input type="radio" name="r2" value="a">a. La alineacion, distribucion y tamaño de los elementos. <br>
+                <input type="radio" name="r2" value="b">b. La velocidad de carga de la pagina web. <br>
+                <input type="radio" name="r2" value="c">c. El color y la tipogragia de los elementos. <br>
+    
+                <h3>3. Cual es una caracteristica clave de Flexbox?</h3>
+                
+                <input type="radio" name="r3" value="a">a. Permite crear diseños estaticos sin adaptabilidad. <br>
+                <input type="radio" name="r3" value="b">b. Solo funciona en dispositivos moviles. <br>
+                <input type="radio" name="r3" value="c">c. Crea diseños flexibles y responsivos para diferentes dispositivos y pantallas.<br>
+
+                <h3>4. Cual es el objetivo principal de Flexbox?</h3>
+                
+                <input type="radio" name="r4" value="a">a. Mejorar la experiencia del usuario en paginas web. <br>
+                <input type="radio" name="r4" value="b">b. Optimizar el rendimiento de la red. <br>
+                <input type="radio" name="r4" value="c">c. Añadir efectos visualescomplejos a los elementos.<br>
+
+                <h3>5. Como se distribuyen los elementos dentro de un contenedor Flexbox?</h3>
+                
+                <input type="radio" name="r5" value="a">a. Solo en direccion horizontal. <br>
+                <input type="radio" name="r5" value="b">b. Solo en direccion vertical. <br>
+                <input type="radio" name="r5" value="c">c. Tanto en direccion horizontal como vertical, segun las necesidades del diseño.<br>
+    
+                <input type="button" value="Enviar" onclick="procesarRespuestas()">
+                
+            </form>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer__texto">Pagina Web elaborada por Jhonny Lopez <br>Fecha de Actualizacion: 12/04/2023</h3>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
